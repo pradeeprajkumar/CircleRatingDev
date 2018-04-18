@@ -20,20 +20,7 @@
                         <subviews>
                             <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="mN5-kx-cMD">
                                 <rect key="frame" x="5" y="70" width="365" height="547"/>
-                                <subviews>
-                                    <stackView opaque="NO" contentMode="scaleAspectFit" placeholderIntrinsicWidth="80" placeholderIntrinsicHeight="10" distribution="fillEqually" translatesAutoresizingMaskIntoConstraints="NO" id="uCw-R4-kuu" customClass="CircleRatingView" customModule="Demo" customModuleProvider="target">
-                                        <rect key="frame" x="8" y="529" width="80" height="10"/>
-                                        <constraints>
-                                            <constraint firstAttribute="width" relation="greaterThanOrEqual" constant="50" id="97d-6p-hT7"/>
-                                            <constraint firstAttribute="height" constant="10" id="xj7-cU-x5p"/>
-                                        </constraints>
-                                    </stackView>
-                                </subviews>
                                 <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
-                                <constraints>
-                                    <constraint firstAttribute="bottom" secondItem="uCw-R4-kuu" secondAttribute="bottom" constant="8" id="IFc-Lw-kRf"/>
-                                    <constraint firstItem="uCw-R4-kuu" firstAttribute="leading" secondItem="mN5-kx-cMD" secondAttribute="leading" constant="8" id="cGJ-Vk-pqW"/>
-                                </constraints>
                             </view>
                         </subviews>
                         <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
@@ -47,7 +34,6 @@
                     </view>
                     <connections>
                         <outlet property="focussedView" destination="mN5-kx-cMD" id="qzn-8i-L9l"/>
-                        <outlet property="ratingView" destination="uCw-R4-kuu" id="PNQ-Wz-zAf"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>

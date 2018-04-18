@@ -12,12 +12,13 @@ class ViewController: UIViewController {
 
     @IBOutlet weak var focussedView: UIView!
     
-    @IBOutlet weak var ratingView: CircleRatingView!
-    
     override func viewDidLoad() {
         super.viewDidLoad()
         
-        ratingView.setupRatingView(numberOfCircles: 5, numberOfFilled: 4)
-        ratingView.layoutSubviews()
+        if let customRatingView = Bundle.main.loadNibNamed("CircleRatingView", owner: self, options: nil)?.first as? CircleRatingView {
+            customRatingView.setupRatingView(numberOfCircles: 5, numberOfFilled: 1)
+            customRatingView.frame = CGRect(x: 30, y: 30, width: 44, height: 9)
+            self.view.addSubview(customRatingView)
+        }
     }
 }
