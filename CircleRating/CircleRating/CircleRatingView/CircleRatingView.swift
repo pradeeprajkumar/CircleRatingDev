@@ -21,6 +21,14 @@ class CircleRatingView: UIStackView {
             circle.isFilled = isFilled
             circleViewsArray.append(circle)
             self.addArrangedSubview(circle)
+            
+            circle.addConstraint(NSLayoutConstraint(item: circle,
+                                                    attribute: NSLayoutAttribute.width,
+                                                    relatedBy: NSLayoutRelation.equal,
+                                                    toItem: circle,
+                                                    attribute: NSLayoutAttribute.height,
+                                                    multiplier: 1,
+                                                    constant: 0))
         }
     }
 }

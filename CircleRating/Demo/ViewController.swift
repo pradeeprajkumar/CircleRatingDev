@@ -16,8 +16,10 @@ class ViewController: UIViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
         if let circleRating = Bundle.main.loadNibNamed("CircleRatingView", owner: self, options: nil)?.first as? CircleRatingView {
-            circleRating.setupRatingView(numberOfCircles: 5, numberOfFilled: 3)
+            circleRating.backgroundColor = UIColor.red
             focussedView.addSubview(circleRating)
+            circleRating.setupRatingView(numberOfCircles:5, numberOfFilled: 5)
+            circleRating.setNeedsLayout()
         }
     }
 }
