@@ -10,7 +10,6 @@
 		2899109C2086615C00D68A6B /* CircleRating.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 289910922086615C00D68A6B /* CircleRating.framework */; };
 		289910A12086615C00D68A6B /* CircleRatingTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 289910A02086615C00D68A6B /* CircleRatingTests.swift */; };
 		289910A32086615C00D68A6B /* CircleRating.h in Headers */ = {isa = PBXBuildFile; fileRef = 289910952086615C00D68A6B /* CircleRating.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		289910AE208661A100D68A6B /* CircleRatingView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 289910AD208661A100D68A6B /* CircleRatingView.xib */; };
 		289910B6208665D000D68A6B /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 289910B5208665D000D68A6B /* AppDelegate.swift */; };
 		289910B8208665D000D68A6B /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 289910B7208665D000D68A6B /* ViewController.swift */; };
 		289910BB208665D000D68A6B /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 289910B9208665D000D68A6B /* Main.storyboard */; };
@@ -20,7 +19,6 @@
 		289910D6208665D100D68A6B /* DemoUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 289910D5208665D100D68A6B /* DemoUITests.swift */; };
 		289910E420866FEE00D68A6B /* CircleView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 289910E120866B9300D68A6B /* CircleView.swift */; };
 		289910E520866FFB00D68A6B /* CircleView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 289910E120866B9300D68A6B /* CircleView.swift */; };
-		289910E62086700800D68A6B /* CircleRatingView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 289910AD208661A100D68A6B /* CircleRatingView.xib */; };
 		28FB1DDC20871D0300E642AD /* CircleView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 28FB1DDB20871D0300E642AD /* CircleView.xib */; };
 		28FB1DDD20871F5F00E642AD /* CircleView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 28FB1DDB20871D0300E642AD /* CircleView.xib */; };
 		28FB1DDF20871FEC00E642AD /* CircleRatingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 28FB1DDE20871FEC00E642AD /* CircleRatingView.swift */; };
@@ -58,7 +56,6 @@
 		2899109B2086615C00D68A6B /* CircleRatingTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CircleRatingTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		289910A02086615C00D68A6B /* CircleRatingTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CircleRatingTests.swift; sourceTree = "<group>"; };
 		289910A22086615C00D68A6B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		289910AD208661A100D68A6B /* CircleRatingView.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = CircleRatingView.xib; sourceTree = "<group>"; };
 		289910B3208665D000D68A6B /* Demo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Demo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		289910B5208665D000D68A6B /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		289910B7208665D000D68A6B /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -165,7 +162,6 @@
 			isa = PBXGroup;
 			children = (
 				28FB1DDE20871FEC00E642AD /* CircleRatingView.swift */,
-				289910AD208661A100D68A6B /* CircleRatingView.xib */,
 			);
 			path = CircleRatingView;
 			sourceTree = "<group>";
@@ -370,7 +366,6 @@
 			buildActionMask = 2147483647;
 			files = (
 				28FB1DDC20871D0300E642AD /* CircleView.xib in Resources */,
-				289910AE208661A100D68A6B /* CircleRatingView.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -389,7 +384,6 @@
 				289910BD208665D100D68A6B /* Assets.xcassets in Resources */,
 				289910BB208665D000D68A6B /* Main.storyboard in Resources */,
 				28FB1DDD20871F5F00E642AD /* CircleView.xib in Resources */,
-				289910E62086700800D68A6B /* CircleRatingView.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

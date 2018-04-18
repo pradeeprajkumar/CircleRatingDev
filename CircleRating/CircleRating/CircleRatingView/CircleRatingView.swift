@@ -18,18 +18,10 @@ class CircleRatingView: UIStackView {
         for index in 0..<numberOfCircles {
             let isFilled = numberOfFilled > index ? true:false
             let circle = CircleView.instanceFromNib()
+//            circle.frame = CGRect(x: 0, y: 0, width: self.frame.size.height, height: self.frame.size.height)
             circle.isFilled = isFilled
             circleViewsArray.append(circle)
             self.addArrangedSubview(circle)
-            
-            circle.addConstraint(NSLayoutConstraint(item: circle,
-                                                    attribute: NSLayoutAttribute.width,
-                                                    relatedBy: NSLayoutRelation.equal,
-                                                    toItem: circle,
-                                                    attribute: NSLayoutAttribute.height,
-                                                    multiplier: 1,
-                                                    constant: 0))
-            circle.setNeedsLayout()
         }
     }
 }

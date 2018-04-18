@@ -41,8 +41,8 @@ class CircleView: UIView {
     }
     
     //IBOutlets
+    @IBOutlet weak var innerCircleView: CircleView!
     
-    @IBOutlet weak var innerView: UIView!
     
     
     class func instanceFromNib() -> CircleView {
@@ -52,7 +52,7 @@ class CircleView: UIView {
     
     var isFilled: Bool = true {
         didSet {
-            self.innerView.isHidden = !isFilled
+            self.innerCircleView.isHidden = !isFilled
         }
     }
 }

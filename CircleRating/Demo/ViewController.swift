@@ -12,14 +12,12 @@ class ViewController: UIViewController {
 
     @IBOutlet weak var focussedView: UIView!
     
+    @IBOutlet weak var ratingView: CircleRatingView!
     
     override func viewDidLoad() {
         super.viewDidLoad()
-        if let circleRating = Bundle.main.loadNibNamed("CircleRatingView", owner: self, options: nil)?.first as? CircleRatingView {
-            circleRating.backgroundColor = UIColor.red
-            focussedView.addSubview(circleRating)
-            circleRating.setupRatingView(numberOfCircles:5, numberOfFilled: 3)
-            circleRating.layoutSubviews()
-        }
+        
+        ratingView.setupRatingView(numberOfCircles: 5, numberOfFilled: 3)
+        ratingView.layoutSubviews()
     }
 }
