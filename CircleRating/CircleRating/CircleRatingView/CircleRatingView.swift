@@ -29,6 +29,7 @@ class CircleRatingView: UIStackView {
                                                     attribute: NSLayoutAttribute.height,
                                                     multiplier: 1,
                                                     constant: 0))
+            circle.setNeedsLayout()
         }
     }
 }

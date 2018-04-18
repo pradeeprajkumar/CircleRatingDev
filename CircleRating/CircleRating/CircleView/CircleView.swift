@@ -30,12 +30,20 @@ class CircleView: UIView {
         }
     }
     
+    
+    override func layoutSubviews() {
+        super.layoutSubviews()
+        self.layer.cornerRadius = self.frame.size.width/2
+    }
+    
     override func prepareForInterfaceBuilder() {
         super.prepareForInterfaceBuilder()
     }
     
     //IBOutlets
-    @IBOutlet weak var innerCircleView: CircleView!
+    
+    @IBOutlet weak var innerView: UIView!
+    
     
     class func instanceFromNib() -> CircleView {
         return UINib(nibName: "CircleView", bundle: nil).instantiate(withOwner: nil, options: nil)[0] as! CircleView
@@ -44,7 +52,7 @@ class CircleView: UIView {
     
     var isFilled: Bool = true {
         didSet {
-            self.innerCircleView.isHidden = !isFilled
+            self.innerView.isHidden = !isFilled
         }
     }
 }
