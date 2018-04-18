@@ -9,12 +9,12 @@
 import UIKit
 import Foundation
 
-class CircleRatingView: UIStackView {
+public class CircleRatingView: UIStackView {
     var circleViewsArray: [CircleView] = []
     var numberOfCircles: Int!
     var numberOfFilled: Int!
     
-    func setupRatingView(numberOfCircles: Int!, numberOfFilled:Int!) {
+    public func setupRatingView(numberOfCircles: Int!, numberOfFilled:Int!) {
         for index in 0..<numberOfCircles {
             let isFilled = numberOfFilled > index ? true:false
             let circle = CircleView.instanceFromNib()

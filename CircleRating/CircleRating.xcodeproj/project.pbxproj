@@ -6,6 +6,20 @@
 	objectVersion = 50;
 	objects = {
 
+/* Begin PBXAggregateTarget section */
+		28FB1DE42087A74E00E642AD /* CircleRatingUniversal */ = {
+			isa = PBXAggregateTarget;
+			buildConfigurationList = 28FB1DE52087A74E00E642AD /* Build configuration list for PBXAggregateTarget "CircleRatingUniversal" */;
+			buildPhases = (
+				28FB1DE82087A76100E642AD /* ShellScript */,
+			);
+			dependencies = (
+			);
+			name = CircleRatingUniversal;
+			productName = CircleRatingUniversal;
+		};
+/* End PBXAggregateTarget section */
+
 /* Begin PBXBuildFile section */
 		2899109C2086615C00D68A6B /* CircleRating.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 289910922086615C00D68A6B /* CircleRating.framework */; };
 		289910A12086615C00D68A6B /* CircleRatingTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 289910A02086615C00D68A6B /* CircleRatingTests.swift */; };
@@ -18,13 +32,11 @@
 		289910CB208665D100D68A6B /* DemoTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 289910CA208665D100D68A6B /* DemoTests.swift */; };
 		289910D6208665D100D68A6B /* DemoUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 289910D5208665D100D68A6B /* DemoUITests.swift */; };
 		289910E420866FEE00D68A6B /* CircleView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 289910E120866B9300D68A6B /* CircleView.swift */; };
-		289910E520866FFB00D68A6B /* CircleView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 289910E120866B9300D68A6B /* CircleView.swift */; };
 		28FB1DDC20871D0300E642AD /* CircleView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 28FB1DDB20871D0300E642AD /* CircleView.xib */; };
-		28FB1DDD20871F5F00E642AD /* CircleView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 28FB1DDB20871D0300E642AD /* CircleView.xib */; };
 		28FB1DDF20871FEC00E642AD /* CircleRatingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 28FB1DDE20871FEC00E642AD /* CircleRatingView.swift */; };
-		28FB1DE0208727DC00E642AD /* CircleRatingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 28FB1DDE20871FEC00E642AD /* CircleRatingView.swift */; };
 		28FB1DE220877BA700E642AD /* CircleRatingView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 28FB1DE120877BA600E642AD /* CircleRatingView.xib */; };
-		28FB1DE320877BA700E642AD /* CircleRatingView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 28FB1DE120877BA600E642AD /* CircleRatingView.xib */; };
+		28FB1E332087AF7400E642AD /* CircleRating.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 289910922086615C00D68A6B /* CircleRating.framework */; };
+		28FB1E342087AF7400E642AD /* CircleRating.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 289910922086615C00D68A6B /* CircleRating.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,7 +61,28 @@
 			remoteGlobalIDString = 289910B2208665D000D68A6B;
 			remoteInfo = Demo;
 		};
+		28FB1E352087AF7400E642AD /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 289910892086615C00D68A6B /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 289910912086615C00D68A6B;
+			remoteInfo = CircleRating;
+		};
 /* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		28FB1E372087AF7400E642AD /* Embed Frameworks */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 10;
+			files = (
+				28FB1E342087AF7400E642AD /* CircleRating.framework in Embed Frameworks */,
+			);
+			name = "Embed Frameworks";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
 		289910922086615C00D68A6B /* CircleRating.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = CircleRating.framework; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -97,6 +130,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				28FB1E332087AF7400E642AD /* CircleRating.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -126,6 +160,7 @@
 				289910C9208665D100D68A6B /* DemoTests */,
 				289910D4208665D100D68A6B /* DemoUITests */,
 				289910932086615C00D68A6B /* Products */,
+				28FB1E302087AE4800E642AD /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -210,6 +245,13 @@
 			path = CircleView;
 			sourceTree = "<group>";
 		};
+		28FB1E302087AE4800E642AD /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXHeadersBuildPhase section */
@@ -267,10 +309,12 @@
 				289910AF208665D000D68A6B /* Sources */,
 				289910B0208665D000D68A6B /* Frameworks */,
 				289910B1208665D000D68A6B /* Resources */,
+				28FB1E372087AF7400E642AD /* Embed Frameworks */,
 			);
 			buildRules = (
 			);
 			dependencies = (
+				28FB1E362087AF7400E642AD /* PBXTargetDependency */,
 			);
 			name = Demo;
 			productName = Demo;
@@ -340,6 +384,9 @@
 						CreatedOnToolsVersion = 9.3;
 						TestTargetID = 289910B2208665D000D68A6B;
 					};
+					28FB1DE42087A74E00E642AD = {
+						CreatedOnToolsVersion = 9.3;
+					};
 				};
 			};
 			buildConfigurationList = 2899108C2086615C00D68A6B /* Build configuration list for PBXProject "CircleRating" */;
@@ -360,6 +407,7 @@
 				289910B2208665D000D68A6B /* Demo */,
 				289910C5208665D100D68A6B /* DemoTests */,
 				289910D0208665D100D68A6B /* DemoUITests */,
+				28FB1DE42087A74E00E642AD /* CircleRatingUniversal */,
 			);
 		};
 /* End PBXProject section */
@@ -385,11 +433,9 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				28FB1DE320877BA700E642AD /* CircleRatingView.xib in Resources */,
 				289910C0208665D100D68A6B /* LaunchScreen.storyboard in Resources */,
 				289910BD208665D100D68A6B /* Assets.xcassets in Resources */,
 				289910BB208665D000D68A6B /* Main.storyboard in Resources */,
-				28FB1DDD20871F5F00E642AD /* CircleView.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -408,6 +454,22 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		28FB1DE82087A76100E642AD /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "";
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		2899108D2086615C00D68A6B /* Sources */ = {
@@ -431,10 +493,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				289910E520866FFB00D68A6B /* CircleView.swift in Sources */,
 				289910B8208665D000D68A6B /* ViewController.swift in Sources */,
 				289910B6208665D000D68A6B /* AppDelegate.swift in Sources */,
-				28FB1DE0208727DC00E642AD /* CircleRatingView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -471,6 +531,11 @@
 			isa = PBXTargetDependency;
 			target = 289910B2208665D000D68A6B /* Demo */;
 			targetProxy = 289910D2208665D100D68A6B /* PBXContainerItemProxy */;
+		};
+		28FB1E362087AF7400E642AD /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 289910912086615C00D68A6B /* CircleRating */;
+			targetProxy = 28FB1E352087AF7400E642AD /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
@@ -701,6 +766,7 @@
 		289910D9208665D100D68A6B /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				INFOPLIST_FILE = Demo/Info.plist;
@@ -718,6 +784,7 @@
 		289910DA208665D100D68A6B /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				INFOPLIST_FILE = Demo/Info.plist;
@@ -810,6 +877,22 @@
 			};
 			name = Release;
 		};
+		28FB1DE62087A74E00E642AD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		28FB1DE72087A74E00E642AD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
@@ -863,6 +946,15 @@
 			buildConfigurations = (
 				289910DF208665D100D68A6B /* Debug */,
 				289910E0208665D100D68A6B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		28FB1DE52087A74E00E642AD /* Build configuration list for PBXAggregateTarget "CircleRatingUniversal" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				28FB1DE62087A74E00E642AD /* Debug */,
+				28FB1DE72087A74E00E642AD /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;

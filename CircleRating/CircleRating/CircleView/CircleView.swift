@@ -9,7 +9,7 @@
 import UIKit
 
 @IBDesignable
-class CircleView: UIView {
+public class CircleView: UIView {
     
     //MARK: Storyboard customizations
     @IBInspectable var borderWidth: CGFloat = 2.0 {
@@ -31,12 +31,12 @@ class CircleView: UIView {
     }
     
     
-    override func layoutSubviews() {
+    override public func layoutSubviews() {
         super.layoutSubviews()
         self.layer.cornerRadius = self.frame.size.width/2
     }
     
-    override func prepareForInterfaceBuilder() {
+    override public func prepareForInterfaceBuilder() {
         super.prepareForInterfaceBuilder()
     }
     
@@ -46,7 +46,7 @@ class CircleView: UIView {
     
     
     class func instanceFromNib() -> CircleView {
-        return UINib(nibName: "CircleView", bundle: nil).instantiate(withOwner: nil, options: nil)[0] as! CircleView
+        return Bundle.init(for: CircleView.self).loadNibNamed("CircleView", owner: nil, options: nil)?.first as! CircleView
     }
     
     
