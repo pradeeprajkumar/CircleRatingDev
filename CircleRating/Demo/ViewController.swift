@@ -17,7 +17,7 @@ class ViewController: UIViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
         
-        ratingView.setupRatingView(numberOfCircles: 5, numberOfFilled: 3)
+        ratingView.setupRatingView(numberOfCircles: 5, numberOfFilled: 4)
         ratingView.layoutSubviews()
     }
 }

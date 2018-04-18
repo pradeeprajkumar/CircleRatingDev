@@ -21,10 +21,10 @@
                             <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="mN5-kx-cMD">
                                 <rect key="frame" x="5" y="70" width="365" height="547"/>
                                 <subviews>
-                                    <stackView opaque="NO" contentMode="scaleAspectFit" placeholderIntrinsicWidth="48" placeholderIntrinsicHeight="10" distribution="fillEqually" translatesAutoresizingMaskIntoConstraints="NO" id="uCw-R4-kuu" customClass="CircleRatingView" customModule="Demo" customModuleProvider="target">
-                                        <rect key="frame" x="8" y="529" width="48" height="10"/>
+                                    <stackView opaque="NO" contentMode="scaleAspectFit" placeholderIntrinsicWidth="80" placeholderIntrinsicHeight="10" distribution="fillEqually" translatesAutoresizingMaskIntoConstraints="NO" id="uCw-R4-kuu" customClass="CircleRatingView" customModule="Demo" customModuleProvider="target">
+                                        <rect key="frame" x="8" y="529" width="80" height="10"/>
                                         <constraints>
-                                            <constraint firstAttribute="width" relation="greaterThanOrEqual" constant="48" id="97d-6p-hT7"/>
+                                            <constraint firstAttribute="width" relation="greaterThanOrEqual" constant="50" id="97d-6p-hT7"/>
                                             <constraint firstAttribute="height" constant="10" id="xj7-cU-x5p"/>
                                         </constraints>
                                     </stackView>
