@@ -21,6 +21,10 @@
 		289910E420866FEE00D68A6B /* CircleView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 289910E120866B9300D68A6B /* CircleView.swift */; };
 		289910E520866FFB00D68A6B /* CircleView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 289910E120866B9300D68A6B /* CircleView.swift */; };
 		289910E62086700800D68A6B /* CircleRatingView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 289910AD208661A100D68A6B /* CircleRatingView.xib */; };
+		28FB1DDC20871D0300E642AD /* CircleView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 28FB1DDB20871D0300E642AD /* CircleView.xib */; };
+		28FB1DDD20871F5F00E642AD /* CircleView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 28FB1DDB20871D0300E642AD /* CircleView.xib */; };
+		28FB1DDF20871FEC00E642AD /* CircleRatingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 28FB1DDE20871FEC00E642AD /* CircleRatingView.swift */; };
+		28FB1DE0208727DC00E642AD /* CircleRatingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 28FB1DDE20871FEC00E642AD /* CircleRatingView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -69,6 +73,8 @@
 		289910D5208665D100D68A6B /* DemoUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DemoUITests.swift; sourceTree = "<group>"; };
 		289910D7208665D100D68A6B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		289910E120866B9300D68A6B /* CircleView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CircleView.swift; sourceTree = "<group>"; };
+		28FB1DDB20871D0300E642AD /* CircleView.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = CircleView.xib; sourceTree = "<group>"; };
+		28FB1DDE20871FEC00E642AD /* CircleRatingView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CircleRatingView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -158,6 +164,7 @@
 		289910AC2086618400D68A6B /* CircleRatingView */ = {
 			isa = PBXGroup;
 			children = (
+				28FB1DDE20871FEC00E642AD /* CircleRatingView.swift */,
 				289910AD208661A100D68A6B /* CircleRatingView.xib */,
 			);
 			path = CircleRatingView;
@@ -198,6 +205,7 @@
 			isa = PBXGroup;
 			children = (
 				289910E120866B9300D68A6B /* CircleView.swift */,
+				28FB1DDB20871D0300E642AD /* CircleView.xib */,
 			);
 			path = CircleView;
 			sourceTree = "<group>";
@@ -361,6 +369,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				28FB1DDC20871D0300E642AD /* CircleView.xib in Resources */,
 				289910AE208661A100D68A6B /* CircleRatingView.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -379,6 +388,7 @@
 				289910C0208665D100D68A6B /* LaunchScreen.storyboard in Resources */,
 				289910BD208665D100D68A6B /* Assets.xcassets in Resources */,
 				289910BB208665D000D68A6B /* Main.storyboard in Resources */,
+				28FB1DDD20871F5F00E642AD /* CircleView.xib in Resources */,
 				289910E62086700800D68A6B /* CircleRatingView.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -405,6 +415,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				289910E420866FEE00D68A6B /* CircleView.swift in Sources */,
+				28FB1DDF20871FEC00E642AD /* CircleRatingView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -423,6 +434,7 @@
 				289910E520866FFB00D68A6B /* CircleView.swift in Sources */,
 				289910B8208665D000D68A6B /* ViewController.swift in Sources */,
 				289910B6208665D000D68A6B /* AppDelegate.swift in Sources */,
+				28FB1DE0208727DC00E642AD /* CircleRatingView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

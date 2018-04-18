@@ -10,6 +10,8 @@ import UIKit
 
 @IBDesignable
 class CircleView: UIView {
+    
+    //MARK: Storyboard customizations
     @IBInspectable var borderWidth: CGFloat = 2.0 {
         didSet {
             self.layer.borderWidth = borderWidth
@@ -30,5 +32,19 @@ class CircleView: UIView {
     
     override func prepareForInterfaceBuilder() {
         super.prepareForInterfaceBuilder()
+    }
+    
+    //IBOutlets
+    @IBOutlet weak var innerCircleView: CircleView!
+    
+    class func instanceFromNib() -> CircleView {
+        return UINib(nibName: "CircleView", bundle: nil).instantiate(withOwner: nil, options: nil)[0] as! CircleView
+    }
+    
+    
+    var isFilled: Bool = true {
+        didSet {
+            self.innerCircleView.isHidden = !isFilled
+        }
     }
 }
