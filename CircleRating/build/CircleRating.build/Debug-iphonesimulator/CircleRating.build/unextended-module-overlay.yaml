@@ -3,11 +3,11 @@
   'case-sensitive': 'false',
   'roots': [{
     'type': 'directory',
-    'name': '/Users/pradeeprajkumar/Library/Developer/Xcode/DerivedData/CircleRating-heqhksnouolenodtpzfuzwzseaqb/Build/Products/Debug-iphonesimulator/CircleRating.framework/Modules'
+    'name': '/Users/pradeeprajkumar/Library/Developer/Xcode/DerivedData/CircleRating-fqmwemtnnqcssqcxtarvuxccnzps/Build/Products/Debug-iphonesimulator/CircleRating.framework/Modules'
     'contents': [{
       'type': 'file',
       'name': 'module.modulemap',
-      'external-contents': '/Users/pradeeprajkumar/Work/Projects/iOS/Github/CircleRating/CircleRating/build/CircleRating.build/Debug-iphonesimulator/CircleRating.build/unextended-module.modulemap',
+      'external-contents': '/Users/pradeeprajkumar/Work/Projects/iOS/Github/CircleRatingDev/CircleRating/build/CircleRating.build/Debug-iphonesimulator/CircleRating.build/unextended-module.modulemap',
     }]
   }]
 }
