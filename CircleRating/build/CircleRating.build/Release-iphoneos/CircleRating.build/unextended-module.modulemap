@@ -1,0 +1,10 @@
+framework module CircleRating {
+  umbrella header "CircleRating.h"
+
+  export *
+  module * { export * }
+}
+
+module CircleRating.__Swift {
+    exclude header "CircleRating-Swift.h"
+}
