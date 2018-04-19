@@ -12,12 +12,12 @@
 		<key>CircleRatingUniversal.xcscheme</key>
 		<dict>
 			<key>orderHint</key>
-			<integer>2</integer>
+			<integer>1</integer>
 		</dict>
 		<key>Demo.xcscheme</key>
 		<dict>
 			<key>orderHint</key>
-			<integer>1</integer>
+			<integer>2</integer>
 		</dict>
 	</dict>
 	<key>SuppressBuildableAutocreation</key>
@@ -28,6 +28,11 @@
 			<true/>
 		</dict>
 		<key>2899109A2086615C00D68A6B</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>28FB1DE42087A74E00E642AD</key>
 		<dict>
 			<key>primary</key>
 			<true/>

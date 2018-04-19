@@ -1,0 +1,314 @@
+### Swift dependencies file v0 ###
+provides-top-level:
+- "CircleRatingView"
+provides-nominal:
+- "12CircleRating0aB4ViewC"
+provides-member:
+- ["12CircleRating0aB4ViewC", ""]
+provides-dynamic-lookup:
+depends-top-level:
+- !private "..<"
+- !private ">"
+- "AssignmentPrecedence"
+- !private "BooleanLiteralType"
+- "CircleRatingView"
+- "CircleView"
+- "Int"
+- "TernaryPrecedence"
+- "UIStackView"
+depends-member:
+- !private ["Sa", "append"]
+- !private ["s23BidirectionalCollectionP", "append"]
+- !private ["Sb", "_getBuiltinLogicValue"]
+- !private ["So15CALayerDelegateP", "CircleView"]
+- ["So15CALayerDelegateP", ""]
+- !private ["So15CALayerDelegateP", "addArrangedSubview"]
+- !private ["So15CALayerDelegateP", "circleViewsArray"]
+- !private ["So15CALayerDelegateP", "init"]
+- !private ["So15CALayerDelegateP", "instanceFromNib"]
+- !private ["So15CALayerDelegateP", "isFilled"]
+- !private ["s7CVarArgP", "CircleView"]
+- ["s7CVarArgP", ""]
+- !private ["s7CVarArgP", "_getBuiltinLogicValue"]
+- !private ["s7CVarArgP", "addArrangedSubview"]
+- !private ["s7CVarArgP", "append"]
+- !private ["s7CVarArgP", "circleViewsArray"]
+- !private ["s7CVarArgP", "init"]
+- !private ["s7CVarArgP", "instanceFromNib"]
+- !private ["s7CVarArgP", "isFilled"]
+- ["12CircleRating0aB4ViewC", "CircleView"]
+- ["12CircleRating0aB4ViewC", "Int"]
+- !private ["12CircleRating0aB4ViewC", "addArrangedSubview"]
+- ["12CircleRating0aB4ViewC", "circleViewsArray"]
+- ["12CircleRating0aB4ViewC", "deinit"]
+- ["12CircleRating0aB4ViewC", "init"]
+- ["12CircleRating0aB4ViewC", "numberOfCircles"]
+- ["12CircleRating0aB4ViewC", "numberOfFilled"]
+- ["12CircleRating0aB4ViewC", "setupRatingView"]
+- !private ["12CircleRating0A4ViewC", "instanceFromNib"]
+- !private ["12CircleRating0A4ViewC", "isFilled"]
+- !private ["s10CollectionP", "append"]
+- !private ["s28CustomDebugStringConvertibleP", "CircleView"]
+- ["s28CustomDebugStringConvertibleP", ""]
+- !private ["s28CustomDebugStringConvertibleP", "addArrangedSubview"]
+- !private ["s28CustomDebugStringConvertibleP", "append"]
+- !private ["s28CustomDebugStringConvertibleP", "circleViewsArray"]
+- !private ["s28CustomDebugStringConvertibleP", "init"]
+- !private ["s28CustomDebugStringConvertibleP", "instanceFromNib"]
+- !private ["s28CustomDebugStringConvertibleP", "isFilled"]
+- !private ["s29CustomPlaygroundQuickLookableP", "_getBuiltinLogicValue"]
+- !private ["s17CustomReflectableP", "_getBuiltinLogicValue"]
+- !private ["s17CustomReflectableP", "append"]
+- !private ["s23CustomStringConvertibleP", "CircleView"]
+- ["s23CustomStringConvertibleP", ""]
+- !private ["s23CustomStringConvertibleP", "_getBuiltinLogicValue"]
+- !private ["s23CustomStringConvertibleP", "addArrangedSubview"]
+- !private ["s23CustomStringConvertibleP", "append"]
+- !private ["s23CustomStringConvertibleP", "circleViewsArray"]
+- !private ["s23CustomStringConvertibleP", "init"]
+- !private ["s23CustomStringConvertibleP", "instanceFromNib"]
+- !private ["s23CustomStringConvertibleP", "isFilled"]
+- !private ["s9DecodableP", "_getBuiltinLogicValue"]
+- !private ["s9DecodableP", "append"]
+- !private ["s9EncodableP", "_getBuiltinLogicValue"]
+- !private ["s9EncodableP", "append"]
+- !private ["s9EquatableP", "CircleView"]
+- ["s9EquatableP", ""]
+- !private ["s9EquatableP", "_getBuiltinLogicValue"]
+- !private ["s9EquatableP", "addArrangedSubview"]
+- !private ["s9EquatableP", "append"]
+- !private ["s9EquatableP", "circleViewsArray"]
+- !private ["s9EquatableP", "init"]
+- !private ["s9EquatableP", "instanceFromNib"]
+- !private ["s9EquatableP", "isFilled"]
+- !private ["s25ExpressibleByArrayLiteralP", "append"]
+- !private ["s27ExpressibleByBooleanLiteralP", "_getBuiltinLogicValue"]
+- !private ["s8HashableP", "CircleView"]
+- ["s8HashableP", ""]
+- !private ["s8HashableP", "_getBuiltinLogicValue"]
+- !private ["s8HashableP", "addArrangedSubview"]
+- !private ["s8HashableP", "circleViewsArray"]
+- !private ["s8HashableP", "init"]
+- !private ["s8HashableP", "instanceFromNib"]
+- !private ["s8HashableP", "isFilled"]
+- !private ["s25LosslessStringConvertibleP", "_getBuiltinLogicValue"]
+- !private ["s17MutableCollectionP", "append"]
+- !private ["So8NSCodingP", "CircleView"]
+- ["So8NSCodingP", ""]
+- !private ["So8NSCodingP", "addArrangedSubview"]
+- !private ["So8NSCodingP", "circleViewsArray"]
+- !private ["So8NSCodingP", "init"]
+- !private ["So8NSCodingP", "instanceFromNib"]
+- !private ["So8NSCodingP", "isFilled"]
+- ["So8NSObjectC", "CircleView"]
+- ["So8NSObjectC", "Int"]
+- !private ["So8NSObjectC", "addArrangedSubview"]
+- ["So8NSObjectC", "circleViewsArray"]
+- ["So8NSObjectC", "init"]
+- !private ["So8NSObjectC", "instanceFromNib"]
+- !private ["So8NSObjectC", "isFilled"]
+- ["So8NSObjectC", "numberOfCircles"]
+- ["So8NSObjectC", "numberOfFilled"]
+- ["So8NSObjectC", "setupRatingView"]
+- !private ["So16NSObjectProtocolP", "CircleView"]
+- ["So16NSObjectProtocolP", ""]
+- !private ["So16NSObjectProtocolP", "addArrangedSubview"]
+- !private ["So16NSObjectProtocolP", "circleViewsArray"]
+- !private ["So16NSObjectProtocolP", "init"]
+- !private ["So16NSObjectProtocolP", "instanceFromNib"]
+- !private ["So16NSObjectProtocolP", "isFilled"]
+- !private ["s22RandomAccessCollectionP", "append"]
+- !private ["s26RangeReplaceableCollectionP", "append"]
+- !private ["s8SequenceP", "append"]
+- !private ["So29UIAccessibilityIdentificationP", "CircleView"]
+- ["So29UIAccessibilityIdentificationP", ""]
+- !private ["So29UIAccessibilityIdentificationP", "addArrangedSubview"]
+- !private ["So29UIAccessibilityIdentificationP", "circleViewsArray"]
+- !private ["So29UIAccessibilityIdentificationP", "init"]
+- !private ["So29UIAccessibilityIdentificationP", "instanceFromNib"]
+- !private ["So29UIAccessibilityIdentificationP", "isFilled"]
+- !private ["So12UIAppearanceP", "CircleView"]
+- ["So12UIAppearanceP", ""]
+- !private ["So12UIAppearanceP", "addArrangedSubview"]
+- !private ["So12UIAppearanceP", "circleViewsArray"]
+- !private ["So12UIAppearanceP", "init"]
+- !private ["So12UIAppearanceP", "instanceFromNib"]
+- !private ["So12UIAppearanceP", "isFilled"]
+- !private ["So21UIAppearanceContainerP", "CircleView"]
+- ["So21UIAppearanceContainerP", ""]
+- !private ["So21UIAppearanceContainerP", "addArrangedSubview"]
+- !private ["So21UIAppearanceContainerP", "circleViewsArray"]
+- !private ["So21UIAppearanceContainerP", "init"]
+- !private ["So21UIAppearanceContainerP", "instanceFromNib"]
+- !private ["So21UIAppearanceContainerP", "isFilled"]
+- !private ["So17UICoordinateSpaceP", "CircleView"]
+- ["So17UICoordinateSpaceP", ""]
+- !private ["So17UICoordinateSpaceP", "addArrangedSubview"]
+- !private ["So17UICoordinateSpaceP", "circleViewsArray"]
+- !private ["So17UICoordinateSpaceP", "init"]
+- !private ["So17UICoordinateSpaceP", "instanceFromNib"]
+- !private ["So17UICoordinateSpaceP", "isFilled"]
+- !private ["So13UIDynamicItemP", "CircleView"]
+- ["So13UIDynamicItemP", ""]
+- !private ["So13UIDynamicItemP", "addArrangedSubview"]
+- !private ["So13UIDynamicItemP", "circleViewsArray"]
+- !private ["So13UIDynamicItemP", "init"]
+- !private ["So13UIDynamicItemP", "instanceFromNib"]
+- !private ["So13UIDynamicItemP", "isFilled"]
+- !private ["So18UIFocusEnvironmentP", "CircleView"]
+- ["So18UIFocusEnvironmentP", ""]
+- !private ["So18UIFocusEnvironmentP", "addArrangedSubview"]
+- !private ["So18UIFocusEnvironmentP", "circleViewsArray"]
+- !private ["So18UIFocusEnvironmentP", "init"]
+- !private ["So18UIFocusEnvironmentP", "instanceFromNib"]
+- !private ["So18UIFocusEnvironmentP", "isFilled"]
+- !private ["So11UIFocusItemP", "CircleView"]
+- ["So11UIFocusItemP", ""]
+- !private ["So11UIFocusItemP", "addArrangedSubview"]
+- !private ["So11UIFocusItemP", "circleViewsArray"]
+- !private ["So11UIFocusItemP", "init"]
+- !private ["So11UIFocusItemP", "instanceFromNib"]
+- !private ["So11UIFocusItemP", "isFilled"]
+- !private ["So30UIPasteConfigurationSupportingP", "CircleView"]
+- ["So30UIPasteConfigurationSupportingP", ""]
+- !private ["So30UIPasteConfigurationSupportingP", "addArrangedSubview"]
+- !private ["So30UIPasteConfigurationSupportingP", "circleViewsArray"]
+- !private ["So30UIPasteConfigurationSupportingP", "init"]
+- !private ["So30UIPasteConfigurationSupportingP", "instanceFromNib"]
+- !private ["So30UIPasteConfigurationSupportingP", "isFilled"]
+- ["So11UIResponderC", "CircleView"]
+- ["So11UIResponderC", "Int"]
+- !private ["So11UIResponderC", "addArrangedSubview"]
+- ["So11UIResponderC", "circleViewsArray"]
+- ["So11UIResponderC", "init"]
+- !private ["So11UIResponderC", "instanceFromNib"]
+- !private ["So11UIResponderC", "isFilled"]
+- ["So11UIResponderC", "numberOfCircles"]
+- ["So11UIResponderC", "numberOfFilled"]
+- ["So11UIResponderC", "setupRatingView"]
+- !private ["So30UIResponderStandardEditActionsP", "CircleView"]
+- ["So30UIResponderStandardEditActionsP", ""]
+- !private ["So30UIResponderStandardEditActionsP", "addArrangedSubview"]
+- !private ["So30UIResponderStandardEditActionsP", "circleViewsArray"]
+- !private ["So30UIResponderStandardEditActionsP", "init"]
+- !private ["So30UIResponderStandardEditActionsP", "instanceFromNib"]
+- !private ["So30UIResponderStandardEditActionsP", "isFilled"]
+- ["So11UIStackViewC", "CircleView"]
+- ["So11UIStackViewC", "Int"]
+- ["So11UIStackViewC", ""]
+- !private ["So11UIStackViewC", "addArrangedSubview"]
+- ["So11UIStackViewC", "circleViewsArray"]
+- ["So11UIStackViewC", "init"]
+- ["So11UIStackViewC", "numberOfCircles"]
+- ["So11UIStackViewC", "numberOfFilled"]
+- ["So11UIStackViewC", "setupRatingView"]
+- !private ["So18UITraitEnvironmentP", "CircleView"]
+- ["So18UITraitEnvironmentP", ""]
+- !private ["So18UITraitEnvironmentP", "addArrangedSubview"]
+- !private ["So18UITraitEnvironmentP", "circleViewsArray"]
+- !private ["So18UITraitEnvironmentP", "init"]
+- !private ["So18UITraitEnvironmentP", "instanceFromNib"]
+- !private ["So18UITraitEnvironmentP", "isFilled"]
+- ["So6UIViewC", "CircleView"]
+- ["So6UIViewC", "Int"]
+- !private ["So6UIViewC", "addArrangedSubview"]
+- ["So6UIViewC", "circleViewsArray"]
+- ["So6UIViewC", "init"]
+- !private ["So6UIViewC", "instanceFromNib"]
+- !private ["So6UIViewC", "isFilled"]
+- ["So6UIViewC", "numberOfCircles"]
+- ["So6UIViewC", "numberOfFilled"]
+- ["So6UIViewC", "setupRatingView"]
+- !private ["s14_ArrayProtocolP", "append"]
+- !private ["s37_DefaultCustomPlaygroundQuickLookableP", "CircleView"]
+- ["s37_DefaultCustomPlaygroundQuickLookableP", ""]
+- !private ["s37_DefaultCustomPlaygroundQuickLookableP", "addArrangedSubview"]
+- !private ["s37_DefaultCustomPlaygroundQuickLookableP", "circleViewsArray"]
+- !private ["s37_DefaultCustomPlaygroundQuickLookableP", "init"]
+- !private ["s37_DefaultCustomPlaygroundQuickLookableP", "instanceFromNib"]
+- !private ["s37_DefaultCustomPlaygroundQuickLookableP", "isFilled"]
+- !private ["s24_DestructorSafeContainerP", "append"]
+- !private ["s35_ExpressibleByBuiltinBooleanLiteralP", "_getBuiltinLogicValue"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "CircleView"]
+- ["10Foundation27_KeyValueCodingAndObservingP", ""]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "addArrangedSubview"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "circleViewsArray"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "init"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "instanceFromNib"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "isFilled"]
+- !private ["s21_ObjectiveCBridgeableP", "_getBuiltinLogicValue"]
+- !private ["s21_ObjectiveCBridgeableP", "append"]
+depends-nominal:
+- !private "Sa"
+- !private "s23BidirectionalCollectionP"
+- !private "Sb"
+- "So15CALayerDelegateP"
+- "s7CVarArgP"
+- "12CircleRating0aB4ViewC"
+- !private "12CircleRating0A4ViewC"
+- !private "s10CollectionP"
+- "s28CustomDebugStringConvertibleP"
+- !private "s29CustomPlaygroundQuickLookableP"
+- !private "s17CustomReflectableP"
+- "s23CustomStringConvertibleP"
+- !private "s9DecodableP"
+- !private "s9EncodableP"
+- "s9EquatableP"
+- !private "s25ExpressibleByArrayLiteralP"
+- !private "s27ExpressibleByBooleanLiteralP"
+- "s8HashableP"
+- !private "s25LosslessStringConvertibleP"
+- !private "s17MutableCollectionP"
+- "So8NSCodingP"
+- "So8NSObjectC"
+- "So16NSObjectProtocolP"
+- !private "s22RandomAccessCollectionP"
+- !private "s26RangeReplaceableCollectionP"
+- !private "s8SequenceP"
+- "So29UIAccessibilityIdentificationP"
+- "So12UIAppearanceP"
+- "So21UIAppearanceContainerP"
+- "So17UICoordinateSpaceP"
+- "So13UIDynamicItemP"
+- "So18UIFocusEnvironmentP"
+- "So11UIFocusItemP"
+- "So30UIPasteConfigurationSupportingP"
+- "So11UIResponderC"
+- "So30UIResponderStandardEditActionsP"
+- "So11UIStackViewC"
+- "So18UITraitEnvironmentP"
+- "So6UIViewC"
+- !private "s14_ArrayProtocolP"
+- "s37_DefaultCustomPlaygroundQuickLookableP"
+- !private "s24_DestructorSafeContainerP"
+- !private "s35_ExpressibleByBuiltinBooleanLiteralP"
+- "10Foundation27_KeyValueCodingAndObservingP"
+- !private "s21_ObjectiveCBridgeableP"
+depends-dynamic-lookup:
+depends-external:
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/Dispatch.apinotesc"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/ObjectiveC.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/CoreImage.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/QuartzCore.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/Dispatch.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/Metal.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/Darwin.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/Foundation.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/CoreFoundation.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/CoreGraphics.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/Swift.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/UIKit.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/SwiftOnoneSupport.swiftmodule"
+- "/Users/pradeeprajkumar/Work/Projects/iOS/Github/CircleRating/CircleRating/CircleRating/CircleRating.h"
+- "/Users/pradeeprajkumar/Work/Projects/iOS/Github/CircleRating/CircleRating/build/CircleRating.build/Debug-iphoneos/CircleRating.build/unextended-module.modulemap"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS11.3.sdk/usr/include/objc/ObjectiveC.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS11.3.sdk/System/Library/Frameworks/OpenGLES.framework/Headers/OpenGLES.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS11.3.sdk/System/Library/Frameworks/CoreImage.framework/Headers/CoreImage.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS11.3.sdk/System/Library/Frameworks/QuartzCore.framework/Headers/QuartzCore.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS11.3.sdk/System/Library/Frameworks/Metal.framework/Headers/Metal.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS11.3.sdk/usr/include/Darwin.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS11.3.sdk/System/Library/Frameworks/Foundation.framework/Headers/Foundation.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS11.3.sdk/System/Library/Frameworks/CoreGraphics.framework/Headers/CoreGraphics.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS11.3.sdk/System/Library/Frameworks/UIKit.framework/Headers/UIKit.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS11.3.sdk/System/Library/Frameworks/CoreText.framework/Headers/CoreText.apinotes"
+interface-hash: "0052d16c55db8099b774d2d82f7f50a9"

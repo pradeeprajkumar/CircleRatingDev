@@ -17,7 +17,7 @@ class ViewController: UIViewController {
         super.viewDidLoad()
         if let customRatingView = Bundle.init(for: CircleRatingView.self).loadNibNamed("CircleRatingView", owner: nil, options: nil)?.first as? CircleRatingView {
             customRatingView.setupRatingView(numberOfCircles: 5, numberOfFilled: 5)
-            customRatingView.frame = CGRect(x: 30, y: 30, width: 44, height: 9)
+            customRatingView.frame = CGRect(x: 30, y: 100, width: 44, height: 9)
             self.view.addSubview(customRatingView)
         }
     }

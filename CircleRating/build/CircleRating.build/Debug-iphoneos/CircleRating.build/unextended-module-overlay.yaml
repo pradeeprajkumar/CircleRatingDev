@@ -1,0 +1,13 @@
+{
+  'version': 0,
+  'case-sensitive': 'false',
+  'roots': [{
+    'type': 'directory',
+    'name': '/Users/pradeeprajkumar/Library/Developer/Xcode/DerivedData/CircleRating-heqhksnouolenodtpzfuzwzseaqb/Build/Products/Debug-iphoneos/CircleRating.framework/Modules'
+    'contents': [{
+      'type': 'file',
+      'name': 'module.modulemap',
+      'external-contents': '/Users/pradeeprajkumar/Work/Projects/iOS/Github/CircleRating/CircleRating/build/CircleRating.build/Debug-iphoneos/CircleRating.build/unextended-module.modulemap',
+    }]
+  }]
+}

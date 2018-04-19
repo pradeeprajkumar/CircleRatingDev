@@ -1,0 +1,6 @@
+version: "Apple Swift version 4.1 (swiftlang-902.0.48 clang-902.0.37.1)"
+options: "5f31fe10dd4690153b759085f1692ac2"
+build_time: [1524121410, 94346000]
+inputs:
+  "/Users/pradeeprajkumar/Work/Projects/iOS/Github/CircleRating/CircleRating/CircleRating/CircleView/CircleView.swift": [1524072800, 0]
+  "/Users/pradeeprajkumar/Work/Projects/iOS/Github/CircleRating/CircleRating/CircleRating/CircleRatingView/CircleRatingView.swift": [1524072800, 0]
