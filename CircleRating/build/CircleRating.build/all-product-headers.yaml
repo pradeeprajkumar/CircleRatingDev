@@ -4,28 +4,28 @@
   'roots': [
     {
       'type': 'directory',
-      'name': "/Users/pradeeprajkumar/Library/Developer/Xcode/DerivedData/CircleRating-heqhksnouolenodtpzfuzwzseaqb/Build/Intermediates.noindex/ArchiveIntermediates/CircleRatingUniversal/BuildProductsPath/Release-iphonesimulator/CircleRating.framework/Headers",
+      'name': "/Users/pradeeprajkumar/Library/Developer/Xcode/DerivedData/CircleRating-fqmwemtnnqcssqcxtarvuxccnzps/Build/Products/Release-iphonesimulator/CircleRating.framework/Headers",
       'contents': [
         {
           'type': 'file',
           'name': "CircleRating-Swift.h",
-          'external-contents': "/Users/pradeeprajkumar/Library/Developer/Xcode/DerivedData/CircleRating-heqhksnouolenodtpzfuzwzseaqb/Build/Intermediates.noindex/ArchiveIntermediates/CircleRatingUniversal/BuildProductsPath/Release-iphonesimulator/CircleRating.framework/Headers/CircleRating-Swift.h"
+          'external-contents': "/Users/pradeeprajkumar/Library/Developer/Xcode/DerivedData/CircleRating-fqmwemtnnqcssqcxtarvuxccnzps/Build/Products/Release-iphonesimulator/CircleRating.framework/Headers/CircleRating-Swift.h"
         },
         {
           'type': 'file',
           'name': "CircleRating.h",
-          'external-contents': "/Users/pradeeprajkumar/Work/Projects/iOS/Github/CircleRating/CircleRating/CircleRating/CircleRating.h"
+          'external-contents': "/Users/pradeeprajkumar/Work/Projects/iOS/Github/CircleRatingDev/CircleRating/CircleRating/CircleRating.h"
         }
       ]
     },
     {
       'type': 'directory',
-      'name': "/Users/pradeeprajkumar/Library/Developer/Xcode/DerivedData/CircleRating-heqhksnouolenodtpzfuzwzseaqb/Build/Intermediates.noindex/ArchiveIntermediates/CircleRatingUniversal/BuildProductsPath/Release-iphonesimulator/CircleRating.framework/Modules",
+      'name': "/Users/pradeeprajkumar/Library/Developer/Xcode/DerivedData/CircleRating-fqmwemtnnqcssqcxtarvuxccnzps/Build/Products/Release-iphonesimulator/CircleRating.framework/Modules",
       'contents': [
         {
           'type': 'file',
           'name': "module.modulemap",
-          'external-contents': "/Users/pradeeprajkumar/Work/Projects/iOS/Github/CircleRating/CircleRating/build/CircleRating.build/Release-iphonesimulator/CircleRating.build/module.modulemap"
+          'external-contents': "/Users/pradeeprajkumar/Work/Projects/iOS/Github/CircleRatingDev/CircleRating/build/CircleRating.build/Release-iphonesimulator/CircleRating.build/module.modulemap"
         }
       ]
     }
