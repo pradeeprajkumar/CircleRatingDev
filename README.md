@@ -1,37 +1,19 @@
-## Welcome to GitHub Pages
+## Circle Rating
 
-You can use the [editor on GitHub](https://github.com/pradeeprajkumar/CircleRating/edit/master/README.md) to maintain and preview the content for your website in Markdown files.
+### How to use
 
-Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.
-
-### Markdown
-
-Markdown is a lightweight and easy-to-use syntax for styling your writing. It includes conventions for
+Using the circle rating is simple.
 
 ```markdown
-Syntax highlighted code block
-
-# Header 1
-## Header 2
-### Header 3
-
-- Bulleted
-- List
-
-1. Numbered
-2. List
-
-**Bold** and _Italic_ and `Code` text
-
-[Link](url) and ![Image](src)
+import CircleRating
+//Add these lines to your view did load to add the CircleRating view to your view controller.
+        if let customRatingView = Bundle.init(for: CircleRatingView.self).loadNibNamed("CircleRatingView", owner: self, options: nil)?.first as? CircleRatingView {
+            customRatingView.setupRatingView(numberOfCircles: 5, numberOfFilled: 4)
+            customRatingView.frame = CGRect(x: 30, y: 50, width: 44, height: 9)
+            self.view.addSubview(customRatingView)
+        }
 ```
-
-For more details see [GitHub Flavored Markdown](https://guides.github.com/features/mastering-markdown/).
-
-### Jekyll Themes
-
-Your Pages site will use the layout and styles from the Jekyll theme you have selected in your [repository settings](https://github.com/pradeeprajkumar/CircleRating/settings). The name of this theme is saved in the Jekyll `_config.yml` configuration file.
 
 ### Support or Contact
 
-Having trouble with Pages? Check out our [documentation](https://help.github.com/categories/github-pages-basics/) or [contact support](https://github.com/contact) and we’ll help you sort it out.
+Have any suggestions? Drop an email to rajkumar.pradeep@yahoo.com.
