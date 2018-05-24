@@ -4,12 +4,12 @@
   'roots': [
     {
       'type': 'directory',
-      'name': "/Users/pradeeprajkumar/Library/Developer/Xcode/DerivedData/CircleRating-fqmwemtnnqcssqcxtarvuxccnzps/Build/Products/Release-iphonesimulator/CircleRating.framework/Headers",
+      'name': "/Users/pradeeprajkumar/Library/Developer/Xcode/DerivedData/CircleRating-fqmwemtnnqcssqcxtarvuxccnzps/Build/Intermediates.noindex/ArchiveIntermediates/CircleRatingUniversal/BuildProductsPath/Release-iphonesimulator/CircleRating.framework/Headers",
       'contents': [
         {
           'type': 'file',
           'name': "CircleRating-Swift.h",
-          'external-contents': "/Users/pradeeprajkumar/Library/Developer/Xcode/DerivedData/CircleRating-fqmwemtnnqcssqcxtarvuxccnzps/Build/Products/Release-iphonesimulator/CircleRating.framework/Headers/CircleRating-Swift.h"
+          'external-contents': "/Users/pradeeprajkumar/Library/Developer/Xcode/DerivedData/CircleRating-fqmwemtnnqcssqcxtarvuxccnzps/Build/Intermediates.noindex/ArchiveIntermediates/CircleRatingUniversal/BuildProductsPath/Release-iphonesimulator/CircleRating.framework/Headers/CircleRating-Swift.h"
         },
         {
           'type': 'file',
@@ -20,7 +20,7 @@
     },
     {
       'type': 'directory',
-      'name': "/Users/pradeeprajkumar/Library/Developer/Xcode/DerivedData/CircleRating-fqmwemtnnqcssqcxtarvuxccnzps/Build/Products/Release-iphonesimulator/CircleRating.framework/Modules",
+      'name': "/Users/pradeeprajkumar/Library/Developer/Xcode/DerivedData/CircleRating-fqmwemtnnqcssqcxtarvuxccnzps/Build/Intermediates.noindex/ArchiveIntermediates/CircleRatingUniversal/BuildProductsPath/Release-iphonesimulator/CircleRating.framework/Modules",
       'contents': [
         {
           'type': 'file',

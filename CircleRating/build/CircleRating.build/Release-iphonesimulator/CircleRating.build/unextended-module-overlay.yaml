@@ -3,7 +3,7 @@
   'case-sensitive': 'false',
   'roots': [{
     'type': 'directory',
-    'name': '/Users/pradeeprajkumar/Library/Developer/Xcode/DerivedData/CircleRating-fqmwemtnnqcssqcxtarvuxccnzps/Build/Products/Release-iphonesimulator/CircleRating.framework/Modules'
+    'name': '/Users/pradeeprajkumar/Library/Developer/Xcode/DerivedData/CircleRating-fqmwemtnnqcssqcxtarvuxccnzps/Build/Intermediates.noindex/ArchiveIntermediates/CircleRatingUniversal/BuildProductsPath/Release-iphonesimulator/CircleRating.framework/Modules'
     'contents': [{
       'type': 'file',
       'name': 'module.modulemap',
